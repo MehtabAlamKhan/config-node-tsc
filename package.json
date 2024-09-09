@@ -1,0 +1,42 @@
+{
+  "name": "config-node-tsc",
+  "version": "1.0.2",
+  "description": "Create node.js app with typescript configuration",
+  "main": "dist/config-node-tsc.js",
+  "bin": {
+    "config-node-tsc": "bin/index"
+  },
+  "types": "dist/config-node-tsc.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "node --watch dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehtabAlamKhan/config-node-tsc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "init"
+  ],
+  "author": "Mehtab Alam Khan",
+  "license": "MIT",
+  "homepage": "https://github.com/MehtabAlamKhan/config-node-tsc#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/MehtabAlamKhan/config-node-tsc/issues"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "LICENSE",
+    "package-lock.json",
+    "package.json",
+    "README.md"
+  ]
+}
