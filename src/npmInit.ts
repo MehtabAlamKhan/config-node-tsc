@@ -6,7 +6,7 @@ export default function npmInit(): void {
 
   try {
     const result = execSync("npm init -y", { encoding: "utf-8" });
-    LOG(`${GREEN}package.json ${DEFAULT}updated.`);
+    LOG(`>  ${GREEN}package.json ${DEFAULT}updated.`);
   } catch (error) {
     ERROR(error);
     process.exit(1);

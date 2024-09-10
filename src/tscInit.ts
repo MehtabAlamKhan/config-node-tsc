@@ -61,6 +61,5 @@ async function removeComments() {
       writeStream.write(str + "\r\n");
     }
   });
-
-  LOG(`Removed comments from ${BLUE}tsconfig.json ${DEFAULT}file.`);
+  LOG(`>  Removed comments from ${BLUE}tsconfig.json ${DEFAULT}file.`);
 }

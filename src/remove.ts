@@ -6,7 +6,7 @@ export default function remove(): void {
     LOG(`Removing ${GREEN}config-node-tsc${DEFAULT} ...`);
 
     execSync(`npm uninstall config-node-tsc`);
-    LOG(`Package removed.`);
+    LOG(`>  Package removed.`);
   } catch (error) {
     ERROR(error);
     process.exit(1);

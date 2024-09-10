@@ -20,7 +20,7 @@ export default function editScripts(): void {
       },
     };
     fs.writeFileSync("./package.json", JSON.stringify(pkg, null, 2));
-    LOG(`Done.`);
+    LOG(`>  Done.`);
   } catch (error) {
     ERROR(error);
     process.exit(1);

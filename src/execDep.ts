@@ -12,7 +12,7 @@ export default function execDep(flags: string[]): void {
       const exTypes = execSync(`npm i -D @types/express`, {
         encoding: "utf-8",
       });
-      LOG(`Done.`);
+      LOG(`>  Done.`);
     }
 
     LOG(
@@ -23,7 +23,7 @@ export default function execDep(flags: string[]): void {
     const devDep = execSync("npm i -D typescript @types/node", {
       encoding: "utf-8",
     });
-    LOG(`Done.`);
+    LOG(`>  Done.`);
   } catch (error) {
     ERROR(error);
     process.exit(1);

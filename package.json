@@ -1,6 +1,6 @@
 {
   "name": "config-node-tsc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create node.js app with typescript configuration",
   "main": "dist/config-node-tsc.js",
   "bin": {
@@ -19,7 +19,8 @@
   "keywords": [
     "nodejs",
     "typescript",
-    "init"
+    "init",
+    "initialize"
   ],
   "author": "Mehtab Alam Khan",
   "license": "MIT",
