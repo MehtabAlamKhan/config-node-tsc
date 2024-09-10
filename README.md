@@ -1,4 +1,4 @@
-# Config Node Tsc [![npm version](https://badge.fury.io/js/config-node-tsc.svg)](https://www.npmjs.com/package/config-node-tsc) [![Downloads](https://img.shields.io/npm/dm/config-node-tsc.svg)](https://www.npmjs.com/package/config-node-tsc) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![NodeJS](https://img.shields.io/badge/Node.js-339933?logo=Node.js&logoColor=white)
+# Config Node Tsc [![npm version](https://img.shields.io/npm/v/config-node-tsc)](https://www.npmjs.com/package/config-node-tsc) [![Downloads](https://img.shields.io/npm/dm/config-node-tsc.svg)](https://www.npmjs.com/package/config-node-tsc) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![NodeJS](https://img.shields.io/badge/Node.js-339933?logo=Node.js&logoColor=white)
 
 A simple tool that creates totally empty nodejs app configured with typescript with just one command.
 
@@ -69,9 +69,7 @@ tsconfig.json file will look like this -
 
 Your folder structure will look like this -
 
-<p align='left'>
-<img src='https://github.com/user-attachments/assets/71a9cebe-ea44-457a-bb89-dde4a2e9de1a' width='300' alt='Folder Structure'>
-</p>
+![FolderStructer](https://github.com/user-attachments/assets/30535949-b275-4fd4-87f1-2acf6fab85dc)
 
 ## 2. Create empty nodejs typescript app with express
 
