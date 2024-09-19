@@ -8,7 +8,7 @@ export default async function tscInit() {
 
   try {
     const result = execSync(
-      `npx tsc --init --outDir "./dist" --module "NodeNext" --moduleResolution "NodeNext" --target "ES2020"`,
+      `npx tsc --init --outDir "./dist" --module "NodeNext" --moduleResolution "NodeNext" --target "ES2020" --sourceMap true`,
       { encoding: "utf-8" }
     );
     removeComments().then(() => {
